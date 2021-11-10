@@ -1,0 +1,30 @@
+{
+    "name": "@yumaeda/sakaba-interface",
+    "version": "0.0.1",
+    "description": "Interface definitions for Sakaba Link",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "jsii",
+        "build:watch": "jsii -w",
+        "package": "jsii-pacmak"
+    },
+    "jsii": {
+        "outdir": "dist",
+        "targets": {}
+    },
+    "repository": {
+        "url": "https://github.com/yumaeda/sakaba-interface.git"
+    },
+    "keywords": [
+        "sakaba",
+        "link",
+        "interface"
+    ],
+    "author": "yumaeda@gmail.com",
+    "license": "MIT",
+    "devDependencies": {
+        "jsii": "^1.43.0",
+        "jsii-pacmak": "^1.43.0"
+    }
+}
