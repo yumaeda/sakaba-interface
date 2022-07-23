@@ -2,7 +2,6 @@ export interface Restaurant {
     readonly id: string
     readonly area: string
     readonly url: string
-    readonly imageName: string
     readonly name: string
     readonly genre: string
     readonly tel: string
@@ -10,8 +9,7 @@ export interface Restaurant {
     readonly address: string
     readonly latitude: string
     readonly longitude: string
-    readonly comment: string
-    readonly takeoutAvailable: number
+    readonly distance: string
 }
 
 export interface Category {
