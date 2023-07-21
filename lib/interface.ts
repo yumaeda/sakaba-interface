@@ -10,6 +10,7 @@ export interface Restaurant {
     readonly latitude: string
     readonly longitude: string
     readonly distance: string
+    readonly isOpen: number
 }
 
 export interface Category {
