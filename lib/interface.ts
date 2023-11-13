@@ -30,4 +30,5 @@ export interface Menu {
     readonly region: number
     readonly price: number
     readonly isMinPrice: number
+    readonly isHidden: number
 }
